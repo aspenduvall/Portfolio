@@ -149,6 +149,8 @@ button {
 
 .biopic {
     border: 5px solid #686868;
+    width: 22%;
+    float: left;
 }
 
 .projects {
@@ -173,4 +175,5 @@ button {
 form {
     border: 2px solid #686868;
     padding: 30px;
+    width: 100%;
 }
