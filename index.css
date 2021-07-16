@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body {
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/retina-wood.png");
+    color: #8E8E8E;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14pt;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #3C3C3C;
+    padding: 50px;
+    padding-top: 150px;
+}
+
+footer {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #3C3C3C;
+    padding: 50px;
+    text-align: center;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/retina-wood.png");
+    border-top: 10px solid #686868;
+    border-bottom: 10px solid #686868;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 0.2;
+    transition: 1s ease-in-out;
+    z-index: 1;
+}
+
+nav:hover {
+    opacity: 1;
+}
+
+.nav {
+    color: #00DAD6 !important;
+    font-size: 24pt;
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+    transition: 1s ease-in-out;
+}
+
+.nav:hover {
+    color: #DA6000 !important;
+}
+
+.col {
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+strong {
+    color: #00DAD6;
+}
+
+em {
+    color: #DA0098;
+}
+
+u {
+    color: #74DA00;
+}
+
+del {
+    color: #DA6000;
+}
+
+h1 {
+    font-size: 24pt;
+    width: 100%;
+    padding: 10px;
+    border-top: 10px solid #686868;
+    border-bottom: 10px solid #686868;
+    margin-bottom: 100px;
+}
+
+h2 {
+    font-size: 24pt;
+    text-align: right;
+    width: 100%;
+    padding: 10px;
+    border-top: 10px solid #686868;
+    border-bottom: 10px solid #686868;
+    margin-bottom: 100px;
+}
+
+a:link, a:active, a:visited {
+    color: #DA0098;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+    cursor: default;
+}
+
+a:hover {
+    color: #74DA00;
+    cursor: default;
+}
+
+textarea {
+    width: 300px;
+    height: 300px;
+    background-color: #8E8E8E;
+    color: #000000;
+    border: 1px solid #8E8E8E;
+}
+
+input {
+    background-color: #8E8E8E;
+    color: #000000;
+    border: 1px solid #8E8E8E;
+}
+
+button {
+    background-color: #8E8E8E;
+    color: #000000;
+    border: 1px solid #8E8E8E;
+}
